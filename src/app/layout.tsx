@@ -1,8 +1,23 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Montserrat, Cormorant, Merriweather } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ 
+  subsets: ["latin"],
+  weight: ["400", "600", "700", "900"],
+  variable: "--font-montserrat"
+});
+const cormorant = Cormorant({ 
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-cormorant"
+});
+const merriweather = Merriweather({ 
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  variable: "--font-merriweather"
+});
 
 export const metadata: Metadata = {
   title: "Leipziger Buchmesse - Freitag",
@@ -16,17 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap"
-          rel="stylesheet"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet" />
-      </head>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${montserrat.variable} ${cormorant.variable} ${merriweather.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

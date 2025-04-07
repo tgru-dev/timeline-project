@@ -44,12 +44,14 @@
 body {
   background: var(--background);
   color: var(--text-color);
-  font-family: 'Merriweather', serif;
+  font-family: var(--font-merriweather), serif;
   color: rgb(var(--foreground-rgb));
   background-color: #F3F3F3;
   background-image: linear-gradient(0deg, transparent 24%, var(--pattern-color) 25%, var(--pattern-color) 26%, transparent 27%,transparent 74%, var(--pattern-color) 75%, var(--pattern-color) 76%, transparent 77%,transparent),
-      linear-gradient(90deg, transparent 24%, var(--pattern-color) 25%, var(--pattern-color) 26%, transparent 27%,transparent 74%, var(--pattern-color) 75%, var(--pattern-color) 76%, transparent 77%,transparent);
-  background-size: 55px 55px;
+    linear-gradient(90deg, transparent 24%, var(--pattern-color) 25%, var(--pattern-color) 26%, transparent 27%,transparent 74%, var(--pattern-color) 75%, var(--pattern-color) 76%, transparent 77%,transparent);
+  background-size: 50px 50px;
+  background-position: 0 0, 0 0;
+  background-attachment: fixed;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -58,18 +60,19 @@ body {
   }
 }
 
-@layer base {
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cormorant', serif;
-    color: var(--accent-color);
-  }
-  
-  a {
-    color: var(--accent-color);
-    transition: color 0.3s ease;
-  }
-  
-  a:hover {
-    color: var(--accent-color-light);
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-cormorant), serif;
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-color-light);
+  text-decoration: underline;
 }
