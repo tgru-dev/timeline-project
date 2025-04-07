@@ -1,0 +1,181 @@
+/* Book-inspired style for timeline cards */
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  border: 2px solid #bca78f;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  font-family: 'Merriweather', serif;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, transparent 0%, rgba(164, 135, 101, 0.05) 100%);
+  pointer-events: none;
+}
+
+.head {
+  font-family: 'Cormorant', serif;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  height: 40px;
+  background: var(--accent-color);
+  padding: 8px 16px;
+  color: var(--card-bg);
+  border-bottom: 1px solid var(--card-border);
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: 1px solid var(--accent-color);
+  background: transparent;
+  color: var(--accent-color);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.button:hover {
+  background: var(--accent-color);
+  color: var(--card-bg);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Verbesserte Kartendarstellung */
+.card {
+  height: auto;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--card-bg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--card-border);
+  transition: all 0.3s ease;
+}
+
+.card .head {
+  background: var(--accent-color);
+  color: white;
+  padding: 12px 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 2px solid var(--accent-color-light);
+}
+
+.card .content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .content h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.card .content p {
+  margin-bottom: 16px;
+  color: #d9cdbf;
+  line-height: 1.6;
+}
+
+.card .content img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.card .button {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.card .button:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.12);
+  border-color: var(--accent-color-light);
+}
+
+/* Verbindungslinien zwischen Karten und Timeline-Punkten */
+.timeline-connector {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 2px;
+  background-color: #d9cdbf;
+  z-index: 5;
+}
+
+.timeline-connector.left {
+  right: -50px;
+}
+
+.timeline-connector.right {
+  left: -50px;
+}
+
+/* Mobile Anpassungen für Verbindungslinien */
+@media (max-width: 767px) {
+  .timeline-connector {
+    width: 2px;
+    height: 60px;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+  }
+  
+  .timeline-connector.left,
+  .timeline-connector.right {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+} 
