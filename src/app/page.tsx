@@ -18,7 +18,7 @@ export default function Home() {
               <div className="w-full border-t border-[#a48765] opacity-30"></div>
             </div>
           </div>
-          <p className="mt-4 text-center text-[#d9cdbf]">
+          <p className="mt-4 text-center text-[#bca78f]">
             Die Leipziger Buchmesse ist eine der ältesten und traditionsreichsten Buchmessen der Welt. 
             Dieser Zeitstrahl zeigt die wichtigsten Highlights der Buchmesse die wir erlebet haben.
           </p>
