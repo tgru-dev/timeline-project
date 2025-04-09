@@ -116,11 +116,33 @@ export const detailedEvents: DetailedEvent[] = [
 
   {
     id: 4,
-    date: "15:45",
-    title: "Grauenhafte Schlange 🐍",
+    date: "14:43",
+    title: "Die Signierstunde des Wahnsinns 🕒",
     description: "Stundenlanges warten in der Schlange mit Jule",
     image: "https://i.postimg.cc/mkNgQywv/stadt.jpg",
-    longDescription: "Auch in den Hallen der Manga-Comic-Con haben wir uns ein wenig umgeschaut. Dort sind wir auf den Stand des Verlags Denkriese gestoßen, der vor allem für das Spiel Stadt, Land, Vollpfosten bekannt ist. Passend zur Messe stellten sie eine Extreme-Version vor, die direkt vor Ort ausprobiert werden konnte. Also haben wir uns als Gruppe ein paar Runden gegönnt. Anfangs war es ziemlich witzig, aber nach einer Weile ließ der Spaß dann doch etwas nach. Trotzdem war die Stimmung am Stand sehr entspannt, auch wenn er ziemlich gut besucht war. Insgesamt ein netter Zwischenstopp auf unserem Rundgang durch die Messehallen – mal was anderes abseits von Büchern und Lesungen.",
+    longDescription: "Es war einer dieser Momente, in denen man sich fragt, ob das Schicksal einem wohlgesonnen ist. Ohne ein reserviertes Ticket für die Signierstunde von Sebastian Fitzek wagte ich mich dennoch in die Schlange. Die Uhr zeigte 14:43 Uhr, und ich war bereit, alles auf eine Karte zu setzen.
+
+14:56 Uhr –
+„Diese Schlange ist nur für Personen mit Reservierung“, informierte mich ein Mitarbeiter. Mein Herz setzte kurz aus. Doch dann fügte er hinzu: „Sie können trotzdem bleiben.“ Ein Funken Hoffnung keimte auf, und ich blieb stehen – unsicher, ob dies ein Akt der Gnade oder der Grausamkeit war.
+
+15:28 Uhr –
+Kurz vor Beginn der Signierstunde wurde ich aus der Schlange in eine andere verwiesen. „Hier hätten Sie von Anfang an stehen sollen“, sagte man mir trocken. Der neue Standort? Eine Schlange, die sich aus der Halle hinaus erstreckte. Ich musste mich ganz hinten anstellen. Die Zeit lief gegen mich.
+
+15:38 Uhr – Die bittere Wahrheit
+Zehn Minuten später trat Fitzeks Managerin an mich heran. Ihre Worte waren wie ein Dolchstoß: „Die Chance, dass Sie ein Autogramm bekommen, ist gleich null.“ Trotzdem blieb ich stehen. Hoffnungslosigkeit und Beharrlichkeit kämpften in meinem Inneren.
+
+17:00 Uhr – Ein Lichtblick?
+Nach fast zwei Stunden bemerkte ich eine Person vor mir, die die Schlange verließ und fünf Minuten später triumphierend mit einem signierten Buch zurückkehrte. Sie hatte einfach die andere Seite des Standes genutzt! In diesem Moment traf ich zwei Frauen, die dasselbe Schicksal teilten wie ich. Gemeinsam schmiedeten wir einen Plan.
+
+Der Plan - Ein riskantes Manöver
+Eine von uns sollte mit unseren Büchern zur anderen Seite gehen und versuchen, sie signieren zu lassen. Es war ein gewagter Plan, aber unsere Hoffnung auf ein Autogramm trieb uns an.
+
+Wir drückten ihr die Bücher in die Hand und sahen ihr nach, wie sie in der Menge verschwand.
+
+17:31 Uhr –
+Nach fünf Minuten kehrte unsere Botin zurück. In ihren Händen hielt sie nicht nur unsere Bücher mit Fitzeks Unterschrift, sondern auch die Erlösung von diesem nervenaufreibenden Tag. „Habt ihr noch etwas vor? Sonst können wir jetzt nach Hause gehen“, sagte sie lächelnd.
+
+Dieser Tag war eine Achterbahn der Gefühle – von Frustration über Hoffnung bis hin zu triumphaler Erleichterung. Vielleicht war es Fitzeks Thriller-Atmosphäre, die sich auf das reale Leben übertragen hatte.",
     additionalInfo: [
       {
         title: "Gruppe (Mitglieder)",
@@ -128,7 +150,7 @@ export const detailedEvents: DetailedEvent[] = [
       },
       {
         title: "Side Infos",
-        content: "Nebem dem Stand war ein Cosplay-Event zu sehen. Das wir auch vorher kurz besucht haben."
+        content: "Für sämmtlichen Text auf diesem Post ist Jule verantwortlich."
       }
     ],
     media: [
