@@ -113,8 +113,42 @@ export const detailedEvents: DetailedEvent[] = [
       }
     ]
   },
+
   {
     id: 4,
+    date: "15:45",
+    title: "Grauenhafte Schlange 🐍",
+    description: "Stundenlanges warten in der Schlange mit Jule",
+    image: "https://i.postimg.cc/mkNgQywv/stadt.jpg",
+    longDescription: "Auch in den Hallen der Manga-Comic-Con haben wir uns ein wenig umgeschaut. Dort sind wir auf den Stand des Verlags Denkriese gestoßen, der vor allem für das Spiel Stadt, Land, Vollpfosten bekannt ist. Passend zur Messe stellten sie eine Extreme-Version vor, die direkt vor Ort ausprobiert werden konnte. Also haben wir uns als Gruppe ein paar Runden gegönnt. Anfangs war es ziemlich witzig, aber nach einer Weile ließ der Spaß dann doch etwas nach. Trotzdem war die Stimmung am Stand sehr entspannt, auch wenn er ziemlich gut besucht war. Insgesamt ein netter Zwischenstopp auf unserem Rundgang durch die Messehallen – mal was anderes abseits von Büchern und Lesungen.",
+    additionalInfo: [
+      {
+        title: "Gruppe (Mitglieder)",
+        content: "Jule"
+      },
+      {
+        title: "Side Infos",
+        content: "Nebem dem Stand war ein Cosplay-Event zu sehen. Das wir auch vorher kurz besucht haben."
+      }
+    ],
+    media: [
+      {
+        type: "image",
+        url: "https://i.postimg.cc/mkNgQywv/stadt.jpg",
+        title: "Bilder"
+      }
+    ],
+    links: [
+      {
+        title: "Rückblick Leipziger Buchmesse 2025 | DENKRIESEN",
+        url: "https://www.youtube.com/watch?v=dk8h7Ic0wCo"
+      }
+    ]
+  },
+
+  
+  {
+    id: 5,
     date: "16:30",
     title: "Volle S-Bahn 🚋",
     description: "Ganz ohne Drama wärs ja zu langweilig",
