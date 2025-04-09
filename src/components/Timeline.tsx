@@ -13,7 +13,7 @@ const Timeline = ({ events }: TimelineProps) => {
   return (
     <div className="relative container mx-auto px-4 py-8">
       {/* Vertical line - hidden on mobile */}
-      <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-[#d9cdbf] opacity-30 hidden md:block" />
+      <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-[#bca78f] opacity-30 hidden md:block" />
       
       <div className="space-y-8 md:space-y-16">
         {events.map((event, index) => (
